@@ -1,0 +1,11 @@
+[project]
+name = "personal-aI-agenta-chatbot"
+version = "0.1.0"
+description = "This project implements a personal AI agent chatbot using Python, Chainlit, OpenAI SDK, Gemini API, and integrates with a Next.js API handler to fetch dynamic data. The chatbot can greet users, answer questions about Owais Abdullah, and fetch real-time data from a custom API."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "chainlit>=2.5.5",
+    "openai-agents>=0.0.11",
+    "python-dotenv>=1.1.0",
+]
